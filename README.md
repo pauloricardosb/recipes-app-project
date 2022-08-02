@@ -32,7 +32,7 @@ npm start
 
 Uma vez com a aplicação iniciada em seu navegador, basta digitar email e senha (não precisam ser dados reais) e quem sabe cozinhar alguma coisa!
 
-## 📫 Contribuindo para o Trivia Project!
+## 📫 Contribuindo para o Recipes App Project!
 
 1. Clone este repositório.
 2. Crie uma branch: `git checkout -b nome-da-branch`.
