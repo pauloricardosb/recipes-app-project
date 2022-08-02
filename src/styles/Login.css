@@ -1,0 +1,121 @@
+:root {
+
+  --blued-grey: #22333b;
+
+  --sweet-grey: #c7c7c7;
+
+  --sweet-coffe: #eae0d5;
+
+  --strong-coffe: #c6ac8f;
+
+  --max-width: 100%;
+
+  --fade-transition: all 200ms ease;
+}
+
+.login-div {
+  align-items: center;
+  background-image: url('../images/backgroung.png');
+  background-position: 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  max-width: var(--max-width);
+  min-height: 100vh;
+  padding: clamp(40px, 10%, 70px);
+}
+
+.logo-div {
+  align-items: center;
+  color: white;
+  display: flex;
+  font-size: xx-large;
+  font-weight: 600;
+  justify-content: space-around;
+  width: var(--max-width);
+}
+
+.login-logo {
+  filter: invert(100%);
+  width: 20vh;
+}
+
+.form-div {
+  width: 300px;
+}
+
+.login-title {
+  color: white;
+  font-size: xx-large;
+  margin-bottom: 10px;
+  width: var(--max-width);
+}
+
+.login-title-label {
+  color: var(--strong-coffe);
+  font-size: medium;
+  margin-bottom: 10px;
+  width: var(--max-width);
+}
+
+@media screen and ( min-width : 361px ) {
+
+  .login-div {
+    background-position: 100%;
+    max-width: var(--max-width);
+    min-height: 78.1vh;
+  }
+
+  .logo-div {
+    justify-content: center;
+  }
+
+  .login-title, .login-title-label {
+    text-align: center;
+  }
+}
+
+.mail-label, .password-label {
+  color: var(--sweet-coffe);
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.mail-input, .password-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 0.9em;
+  font-weight: 600;
+  outline: none;
+  padding: 5px 10px 10px;
+  width: 90%;
+}
+
+.login-btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-btn {
+  background-color: crimson;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 3rem;
+  padding: 10px;
+  transition: var(--fade-transition);
+  width: 40%;
+}
+
+.sign-btn:disabled {
+  background-color: var(--sweet-grey);
+  color: rgb(44, 44, 44);
+}
+
+.sign-btn:hover {
+  background-color: rgb(235, 64, 98);
+  border: 2px solid white;
+  transform: scale(1.3);
+}

@@ -1,0 +1,167 @@
+.recipe-div {
+  align-items: center;
+  background-color: rgb(231, 231, 231);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.details-img {
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 50vw;
+}
+
+.recipe-end-div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.instructions-title {
+  font-size: larger;
+  text-align: center;
+}
+
+.instructions, .ingredients {
+  background-color: white;
+  border-radius: 5px;
+  list-style-type: none;
+  margin: 0.5rem;
+  max-width: 50vh;
+  padding: 0.5rem;
+  text-align: justify;
+}
+
+.ingredients-inprogress {
+  align-items: flex-end;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0.5rem;
+  max-width: 50vh;
+  padding: 0.5rem;
+  text-align: justify;
+}
+
+.recipe-card {
+  color: black;
+  text-align: center;
+  transition: all 400ms ease-out;
+}
+
+.recipe-card:hover {
+  border-radius: 15px;
+  color: crimson;
+  transform: scale(0.9);
+}
+
+.recommendation-span {
+  font-size: larger;
+  text-align: center;
+}
+
+.recommendationItens {
+  display: flex;
+  margin-top: 15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scrollbar-color: crimson white;
+  scrollbar-width: thin;
+}
+
+.recommendationItens img {
+  border-radius: 150px;
+  padding: 2vw;
+  transition: all 0.9s ease-out;
+  width: 30vh;
+}
+
+.recommendationItens img:hover {
+  border-radius: 50px;
+}
+
+.recommendationItens a {
+  text-decoration: none;
+  transition: all 0.9s ease-out;
+}
+
+.recommendationItens a:hover {
+  color: crimson;
+}
+
+.buttons {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.btn-start-recipe {
+  background-color: crimson;
+  border: none;
+  border-radius: 10px;
+  bottom: 0;
+  color: white;
+  left: 0;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  padding: 1.5%;
+  position: fixed;
+  right: 0;
+  transition: all 400ms ease;
+}
+
+.btn-start-recipe:hover {
+  transform: scale(1.1);
+}
+
+.recipe-video {
+  display: flex;
+  height: 29vh;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.recipe-video iframe {
+  border: none;
+  border-radius: 5px;
+  margin: 5px 0;
+  width: 20rem;
+}
+
+@media screen and ( min-width : 361px ) {
+
+  .details-img {
+    width: 35vh;
+  }
+
+  .buttons {
+    height: 1vh;
+  }
+
+  .instructions, .ingredients {
+    max-width: 100vh;
+    text-align: center;
+  }
+
+  .recipe-video {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+  }
+
+  .recipe-video iframe {
+    border: none;
+    border-radius: 5px;
+    margin: 15px 0;
+    width: 30rem;
+  }
+
+  .share-btn {
+    margin: 2rem;
+  }
+}

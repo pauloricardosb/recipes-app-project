@@ -1,0 +1,74 @@
+.buttons-div {
+  align-items: center;
+  background-image: url('../images/black-bar.jpg');
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  height: 7vh;
+  justify-content: space-around;
+  max-width: 360px;
+}
+
+.buttons-div button {
+  border: none;
+  border-radius: 5px;
+  padding: 0.2em;
+  transition: all 500ms ease;
+}
+
+.buttons-div button:hover {
+  background-color: var(--strong-pink);
+  color: white;
+  transform: scale(1.5);
+}
+
+.recipes-page {
+  background-color: #e5e5e5;
+}
+
+.itens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.itens img {
+  border-radius: 5px;
+  width: 20vh;
+}
+
+.itens a {
+  color: black;
+  text-decoration: none;
+}
+
+.itens a:hover {
+  color: var(--strong-pink);
+}
+
+.itens div {
+  background-color: white;
+  border-radius: 2px;
+  margin: 0.5rem;
+  padding: 0.3rem;
+  text-align: center;
+  transition: all 400ms ease;
+}
+
+.itens div:hover {
+  transform: translateY(-5px) scale(1.05) translateZ(0);
+}
+
+@media screen and ( min-width : 361px ) {
+
+  .buttons-div {
+    background-color: black;
+    background-image: none;
+    justify-content: space-evenly;
+    max-width: 100%;
+  }
+
+  .buttons-div button {
+    padding: 0.5em;
+  }
+}

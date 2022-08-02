@@ -1,0 +1,62 @@
+.filters-buttons-div {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+.filters-btn {
+  border: none;
+  border-radius: 2px;
+  margin: auto;
+  padding: 1%;
+  transition: var(--fade-transition);
+}
+
+.filters-btn:hover {
+  background-color: var(--strong-pink);
+  color: white;
+  transform: scale(1.3);
+}
+
+.done-recipe-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.done-recipe {
+  align-items: center;
+  background-color: rgb(216, 216, 216);
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.3rem;
+  padding: 0.3rem;
+  text-align: center;
+  transition: all 400ms ease;
+}
+
+.done-recipe a {
+  color: black;
+  text-decoration: none;
+}
+
+.done-recipe img {
+  border-radius: 15px;
+  width: 90px;
+}
+
+.recipe-btn, .fav-btn {
+  background-color: rgb(216, 216, 216);
+  border: none;
+  transition: all 200ms ease;
+}
+
+.recipe-btn:hover {
+  transform: scale(0.9);
+}
+
+.actions-div {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,38 @@
+:root {
+
+  --strong-pink: #f25;
+
+  --max-width: 100%;
+
+  --fade-transition: all 200ms ease;
+}
+
+.main-header {
+  align-items: center;
+  background-color: var(--strong-pink);
+  display: flex;
+  height: 10vh;
+  justify-content: space-around;
+}
+
+.page-title {
+  color: black;
+}
+
+.profile-icon, .search-icon {
+  transition: var(--fade-transition);
+  width: 20px;
+}
+
+.profile-icon:hover {
+  transform: scale(1.5);
+}
+
+.search-icon:hover {
+  transform: scale(1.5);
+}
+
+.search-button {
+  background-color: var(--strong-pink);
+  border: none;
+}

@@ -1,0 +1,27 @@
+.email {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.profile-btn {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20vh;
+}
+
+.btn {
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  margin-bottom: 15px;
+  padding: 2%;
+  transition: var(--fade-transition);
+  width: 200px;
+}
+
+.btn:hover {
+  transform: scale(1.5);
+}
