@@ -71,7 +71,6 @@ function DrinkId() {
       alcoholicOrNot: fetchIdDrink.strAlcoholic,
       name: fetchIdDrink.strDrink,
       image: fetchIdDrink.strDrinkThumb,
-      // tags: [],
     };
     let joao = [];
     if (favoritesArray.length
@@ -101,7 +100,6 @@ function DrinkId() {
       setIsFavorite(false);
     }
   }, []);
-  // testando novamente
   return (
     <div>
       <div className="buttons">

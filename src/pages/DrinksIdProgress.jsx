@@ -32,19 +32,6 @@ function DrinksIdProgress() {
     setCheckeds,
   } = useContext(Context);
 
-  // const objInprogressDrink = {
-  //   id: fetchProgressDrink.idDrink,
-  //   type: 'drink',
-  //   nationality: '',
-  //   category: fetchProgressDrink.strCategory,
-  //   alcoholicOrNot: fetchProgressDrink.strAlcoholic,
-  //   name: fetchProgressDrink.strDrink,
-  //   image: fetchProgressDrink.strDrinkThumb,
-  //   ingredient: ingredientsArray,
-  //   amount: amountArray,
-  //   checkeds: [],
-  // };
-
   const handleLocal = (dados, reduce, ammoutReduce) => {
     const objInprogress = {
       id: dados.idDrink,

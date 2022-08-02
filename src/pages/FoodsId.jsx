@@ -82,7 +82,6 @@ function FoodsId() {
       alcoholicOrNot: '',
       name: fetchId.strMeal,
       image: fetchId.strMealThumb,
-      // tags: fetchId.strTags.split(','),
     };
     let joao = [];
     if (

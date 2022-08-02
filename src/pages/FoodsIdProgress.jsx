@@ -50,7 +50,6 @@ function DrinksIdProgress() {
       alcoholicOrNot: '',
       name: fetchProgressFood.strMeal,
       image: fetchProgressFood.strMealThumb,
-      // tags: fetchProgressFood.strTags.split(','),
     };
     let novoArray = [];
     if (
@@ -87,7 +86,6 @@ function DrinksIdProgress() {
       amount: ammoutReduce,
       ingredient: reduce,
     };
-    // let novoArray = [];
     let novoArray = JSON.parse(localStorage.getItem('inProgressRecipes'));
     if (
       inProgressArrayFood.length

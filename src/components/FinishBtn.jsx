@@ -37,7 +37,6 @@ function FinishBtn() {
         image: fetchProgressFood.strMealThumb,
         doneDate: fetchProgressFood.dateModified,
         tags: fetchProgressFood.strTags.split(','),
-        // .fetchProgressFood.strTags.filter((_, i) => i < '2'),
       });
     }
     history.push('/done-recipes');

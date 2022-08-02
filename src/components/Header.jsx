@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import profiler from '../images/profileIcon.svg';
 import search from '../images/searchIcon.svg';
-// import InputSearch from './InputSearch';
 import SearchBar from './SearchBar';
 import '../styles/Header.css';
 
